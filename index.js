@@ -1,4 +1,4 @@
-EddystoneBeaconScanner = require('eddystone-beacon-scanner');
+var EddystoneBeaconScanner = require('eddystone-beacon-scanner');
 
 EddystoneBeaconScanner.on('found', function(beacon) {
   console.log('found Eddystone Beacon:\n', JSON.stringify(beacon, null, 2));
