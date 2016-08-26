@@ -1,0 +1,27 @@
+{
+  "name": "beacon_example",
+  "version": "1.0.0",
+  "description": "An simple beacon example for IS439",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anduslim/is439_beacons_handson_one.git"
+  },
+  "keywords": [
+    "is439",
+    "beacon"
+  ],
+  "author": "Andus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anduslim/is439_beacons_handson_one/issues"
+  },
+  "homepage": "https://github.com/anduslim/is439_beacons_handson_one#readme",
+  "dependencies": {
+    "eddystone-beacon-scanner": "^3.0.0"
+  }
+}
